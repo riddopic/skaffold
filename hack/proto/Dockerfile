@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM golang:1.15 AS generate-files
+FROM golang:1.18 AS generate-files
 RUN apt-get update && apt-get install -y unzip moreutils
 
 WORKDIR /protoc
