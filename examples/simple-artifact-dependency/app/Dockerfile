@@ -1,5 +1,5 @@
 ARG BASE
-FROM golang:1.18 as builder
+FROM golang:1.21rc2 as builder
 WORKDIR /code
 COPY main.go .
 COPY go.mod .
