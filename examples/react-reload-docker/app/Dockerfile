@@ -1,4 +1,4 @@
-FROM node:14.9-alpine
+FROM node:14.19-alpine
 
 WORKDIR /app
 EXPOSE 8080
